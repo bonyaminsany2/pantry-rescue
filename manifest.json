@@ -2,8 +2,8 @@
   "name": "Pantry Rescue",
   "short_name": "Pantry",
   "description": "Track what's in your fridge and pantry. Never let good food go to waste again.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/pantry-rescue/",
+  "scope": "/pantry-rescue/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#1a3328",
@@ -28,27 +28,27 @@
   ],
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%231a3328'/><text y='130' x='96' text-anchor='middle' font-size='110' fill='white'>🥬</text></svg>",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%231a3328'/><text y='130' x='96' text-anchor='middle' font-size='110' fill='white'>🥬</text></svg>",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='110' fill='%231a3328'/><text y='360' x='256' text-anchor='middle' font-size='280' fill='white'>🥬</text></svg>",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='110' fill='%231a3328'/><text y='360' x='256' text-anchor='middle' font-size='280' fill='white'>🥬</text></svg>",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "maskable"
     }
   ],
@@ -57,12 +57,12 @@
       "name": "Add Item",
       "short_name": "Add",
       "description": "Quickly add a new item to your pantry",
-      "url": "/?page=add",
+      "url": "/pantry-rescue/?page=add",
       "icons": [
         {
-          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect width='96' height='96' rx='20' fill='%23234535'/><circle cx='48' cy='48' r='10' fill='white'/><line x1='48' y1='35' x2='48' y2='61' stroke='white' stroke-width='3' stroke-linecap='round'/><line x1='35' y1='48' x2='61' y2='48' stroke='white' stroke-width='3' stroke-linecap='round'/></svg>",
-          "sizes": "96x96",
-          "type": "image/svg+xml"
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
         }
       ]
     },
@@ -70,17 +70,16 @@
       "name": "View Stats",
       "short_name": "Stats",
       "description": "Check your food-saving progress",
-      "url": "/?page=stats",
+      "url": "/pantry-rescue/?page=stats",
       "icons": [
         {
-          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect width='96' height='96' rx='20' fill='%23234535'/><line x1='72' y1='60' x2='72' y2='30' stroke='white' stroke-width='3' stroke-linecap='round'/><line x1='48' y1='60' x2='48' y2='20' stroke='white' stroke-width='3' stroke-linecap='round'/><line x1='24' y1='60' x2='24' y2='40' stroke='white' stroke-width='3' stroke-linecap='round'/></svg>",
-          "sizes": "96x96",
-          "type": "image/svg+xml"
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
         }
       ]
     }
   ],
-  "categories": ["productivity", "utilities"],
   "edge_side_panel": {
     "preferred_width": 400
   },

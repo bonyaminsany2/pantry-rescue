@@ -1,7 +1,8 @@
-const CACHE_NAME = 'pantry-rescue-v2';
+const CACHE_NAME = 'pantry-rescue-v3';
 const ASSETS = [
   './',
   './index.html',
+  './app.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png'

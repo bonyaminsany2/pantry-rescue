@@ -2,7 +2,7 @@
   "name": "Pantry Rescue",
   "short_name": "Pantry",
   "description": "Track what's in your fridge and pantry. Never let good food go to waste again.",
-  "start_url": "/pantry-rescue/",
+  "start_url": "/pantry-rescue/app.html",
   "scope": "/pantry-rescue/",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -57,7 +57,7 @@
       "name": "Add Item",
       "short_name": "Add",
       "description": "Quickly add a new item to your pantry",
-      "url": "/pantry-rescue/?page=add",
+      "url": "/pantry-rescue/app.html?page=add",
       "icons": [
         {
           "src": "icon-192.png",
@@ -70,7 +70,7 @@
       "name": "View Stats",
       "short_name": "Stats",
       "description": "Check your food-saving progress",
-      "url": "/pantry-rescue/?page=stats",
+      "url": "/pantry-rescue/app.html?page=stats",
       "icons": [
         {
           "src": "icon-192.png",
